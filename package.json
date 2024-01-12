@@ -1,6 +1,6 @@
 {
   "name": "@vapi-ai/playht",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build:sdk": "yarn workspace playht build",
     "build:gpt-example": "yarn workspace gpt-example build:all",
