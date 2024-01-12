@@ -9,7 +9,7 @@
     "start:sdk-example": "yarn build:sdk && yarn workspace sdk-example start",
     "start:gpt-example": "yarn build:sdk && yarn workspace gpt-example start",
     "update:toc": "doctoc --title '**Table of Contents**' README.md",
-    "update": "npm version patch && npm run build && npm publish"
+    "update": "npm version patch && npm run build:sdk && npm publish"
   },
   "workspaces": [
     "packages/*"
