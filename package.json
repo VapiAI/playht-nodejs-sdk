@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "@vapi-ai/playht",
+  "version": "1.0.0",
   "scripts": {
     "build:sdk": "yarn workspace playht build",
     "build:gpt-example": "yarn workspace gpt-example build:all",
@@ -7,7 +8,8 @@
     "build:all": "yarn build:sdk && yarn build:gpt-example && yarn build:sdk-example",
     "start:sdk-example": "yarn build:sdk && yarn workspace sdk-example start",
     "start:gpt-example": "yarn build:sdk && yarn workspace gpt-example start",
-    "update:toc": "doctoc --title '**Table of Contents**' README.md"
+    "update:toc": "doctoc --title '**Table of Contents**' README.md",
+    "update": "npm version patch && npm run build && npm publish"
   },
   "workspaces": [
     "packages/*"
