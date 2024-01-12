@@ -5609,7 +5609,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playht@latest, playht@workspace:packages/playht":
+"playht@npm:0.9.0-beta":
+  version: 0.9.0-beta
+  resolution: "playht@npm:0.9.0-beta"
+  dependencies:
+    axios: ^1.4.0
+    file-type: ^18.5.0
+    p-queue: ^7.4.1
+  checksum: 19d83275719cef46b1390fc873e68f00f0c2358450d648b66d2e95d68261b8cf2e937c8e525ef32410d87f06094e638d6432ca086c9e763699d1a9496ba9f531
+  languageName: node
+  linkType: hard
+
+"playht@npm:latest":
+  version: 0.9.6
+  resolution: "playht@npm:0.9.6"
+  dependencies:
+    "@grpc/grpc-js": ^1.9.4
+    axios: ^1.4.0
+    cross-fetch: ^4.0.0
+    file-type: ^18.5.0
+    protobufjs: ^7.2.5
+    tslib: ^2.1.0
+  checksum: cfe626e2cb2afa3342a133f3bf722b13570659f5e0a920031ebe7e82fb2b9ea56b9f7424880b6997c6f11006e108126daeeb79dfdd1f8aa620f5ca8728790f68
+  languageName: node
+  linkType: hard
+
+"playht@workspace:packages/playht":
   version: 0.0.0-use.local
   resolution: "playht@workspace:packages/playht"
   dependencies:
@@ -5636,17 +5661,6 @@ __metadata:
     typescript: ^5.1.6
   languageName: unknown
   linkType: soft
-
-"playht@npm:0.9.0-beta":
-  version: 0.9.0-beta
-  resolution: "playht@npm:0.9.0-beta"
-  dependencies:
-    axios: ^1.4.0
-    file-type: ^18.5.0
-    p-queue: ^7.4.1
-  checksum: 19d83275719cef46b1390fc873e68f00f0c2358450d648b66d2e95d68261b8cf2e937c8e525ef32410d87f06094e638d6432ca086c9e763699d1a9496ba9f531
-  languageName: node
-  linkType: hard
 
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
